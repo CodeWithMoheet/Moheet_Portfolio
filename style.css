@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: sans-serif;
+}
+
+.bg-custom {
+    --background-color-2:  #14B8A6;
+    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+    
+    background-color: var(--background-color-2);
+    box-shadow: var(--shadow-1), var(--shadow-2);
+    box-shadow: var(--inner-shadow);
+    box-shadow: var(--shadow-white-3);
+    background-image: var(--gradient-box-w);
+  }
+  
+  /* To add hover effect */
+  .bg-custom:hover {
+    background-image: var(--gradient-red-hover);
+  }
+ 
+.bg-custom1 {
+    --background-color-2: #212428;
+    --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+    --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+    --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+    --gradient-red-hover: linear-gradient(145deg, #ffffff, #fefefe);
+    --gradient-red-hover: linear-gradient(145deg, #14B8A6, #14B8A6);
+  
+    background-color: var(--background-color-2);
+    box-shadow: var(--shadow-1), var(--shadow-2);
+    box-shadow: var(--inner-shadow);
+    box-shadow: var(--shadow-white-3);
+    background-image: var(--gradient-box-w);
+  }
+
+  .bg-color{
+    background: #ECF0F3;
+  }
+
+  .bg-color1{ 
+      background-color: #14B8A6;
+  }
+  .text-color{
+    color: #14B8A6;
+  }
+
+  .bg-color1:hover {
+    background-color: #35404E;
+  }
+
+  
+  .text-color1{
+    color: #35404E;
+  }
+
+  /*--background-color-2: #212428;
+  --shadow-1: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  --shadow-2: inset 21px 21px 19px #181a1d, inset -21px -21px 19px #202225;
+  --inner-shadow: 1px 4px 2px -3px rgba(0, 0, 0, 0.7) inset, -1px -3px 3px -2px rgba(255, 255, 255, 0.2) inset;
+  --shadow-white-3: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+  --gradient-box-w: linear-gradient(145deg, #e2e8ec, #ffffff);
+  --gradient-red-hover: linear-gradient(145deg, #ff014f, #d11414); -->
+<!-- caret-pink-500 -->
+<!-- colors 
+  more:#14B8A6
+  2FB297
+  grey:#35404E 
+  
+  */
